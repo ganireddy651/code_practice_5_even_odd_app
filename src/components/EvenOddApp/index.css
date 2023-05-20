@@ -1,1 +1,61 @@
 /* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.even-odd-bg-container {
+  background-color: #f0eded;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.even-odd-card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 42px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.count-para {
+  color: #334155;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.card-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-bottom-items {
+  text-align: center;
+}
+.button {
+  background-color: #ffffff;
+  border-width: 0;
+  height: 30px;
+  width: 120px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.para {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
